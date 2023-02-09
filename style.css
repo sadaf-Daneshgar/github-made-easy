@@ -1,44 +1,45 @@
 #title {
-    font-size: 400%;
+  font-size: 400%;
     width: 60vmax;
   }
 
 .center {
-    margin: auto;
+  margin: auto;
     padding: auto;
     text-align: center;
   }
 
 #image {
-    max-width: 70%;
+  max-width: 100%;
     height: auto;
     display: block;
   }
+img {
+  display: block;
+}
 
 
-  @media only screen and (min-width:480px)
-  {
+@media only screen and (min-width:480px) {
 
-  }
+}
 
-  @media only screen and (min-width:767px)
-  {
+@media only screen and (min-width:767px) {
 
-  }
+}
 
-  @media only screen and (min-width:991px)
-  {
+@media only screen and (min-width:991px) {
 
-  }
+}
 
-  @media only screen and (min-width:1200px)
-  {
- .font {
+@media only screen and (min-width:1200px) {
+  .font {
     padding: 0px 200px 15px 200px;
-        }
   }
+}
 
-  @media(orientation: landscape)
-  {
+@media(orientation: landscape) {
 
-  }
+}
+img {
+  display: block;
+}
